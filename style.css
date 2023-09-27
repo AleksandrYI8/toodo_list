@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    gap: 5px;
+    width: 480px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+form input {
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    padding: 10px;
+
+    outline-color: #007FFF;
+}
+
+form button {
+    font-family: Gilroy;
+    width: 30%;
+    padding: 10px;
+    background-color: #007FFF;
+    color: white;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+.buy {
+    width: 400px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #007FFF;
+    margin-top: 2%;
+    margin-left: 3%;
+    
+}
+
+.left_bt {
+    border: 0;
+}
+
+h3 {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.buy p {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
